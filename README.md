@@ -47,7 +47,9 @@ The node app will need to be hosted publicly, but to test functionality locally,
 `node webhook-api-app.js`
 
 ## Configuring the .env
-Depending on the project, the .env file that the projects use require the following values:
+> a template is provided for the `.env` file named `.env.template`. Change the name to `.env` in order to use this file with the project.
+
+Depending on the project, the .env file that the projects use will require the following values:
 
 ``` conf
 STRIPE_API_KEY="sk_test_51KgE2......"
